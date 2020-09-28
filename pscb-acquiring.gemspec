@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'pscb/acquiring/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'sberbank-acquiring'
+  spec.name          = 'pscb-acquiring'
   spec.version       = Pscb::Acquiring::VERSION
   spec.authors       = ['Veronica Puyda']
   spec.email         = ['addver@gmail.com']
